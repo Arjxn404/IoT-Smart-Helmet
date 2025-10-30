@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.status {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: white;
+}
+
+.status.safe { background-color: #27ae60; }
+.status.alert { background-color: #e74c3c; }
+
+.metrics p {
+  font-size: 18px;
+  color: #555;
+}
